@@ -4,63 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>ProyectOne</title>
 </head>
 
 <body>
     
-    <nav class="navegacion"> <!--BARRA DE NAVEGACION-->
+    <div class="nav"> <!--BARRA DE NAVEGACION-->
         <div class="desktop">
-
-            <div class="logo">
-                <a href="#">Logo</a>
-            </div>
-            
             <div class="header">
-                <a href="#">Buscador</a>
-                <a href="#">Favoritos</a>
-                <a href="#">FAQ</a>
-                <a href="#">Carrito</a>
-                <a href="#">Cuenta</a>
+                <div class="logo">
+                    <a href="#">Logo</a>
+                </div>
+                <div class="search">
+                    <a href="#">Buscador</a>
+                </div>
+                <div class="menu">
+                    <a href="#">Favoritos</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Carrito</a>
+                    <a href="#">Cuenta</a>
+                </div>
             </div>
         </div>
-    </nav>
+    </div>
 
-    <div> <!--CATEGORIAS-->
+    <div class="contenedor">
 
-        <div class="categorias">
+        <div class="categorias"> <!--CATEGORIAS-->
             <ul>
                 <li><a href="#">Hombres</a></li>
                 <li><a href="#">Mujeres</a></li>
                 <li><a href="#">Niños</a></li>
                 <li><a href="#">Deportes</a></li>
-                <li><a href="#">Marcas</a></div></li>
+                <li><a href="#">Marcas</a></li>
             </ul>
         </div>
 
-    </div>
+        <div class="productos">
 
-    <div class="productos">
+            <a class="ordenar" href="#">Ordenar por...</a>
 
-        <a class="ordenar" href="#">Ordenar por...</a>
+            <div class="producto">
+                <a href="#">Producto 1</a>
+                <a href="#">Producto 2</a>
+                <a href="#">Producto 3</a>
+                <a href="#">Producto 4</a>
+                <a href="#">Producto 5</a>
+                <a href="#">Producto 6</a>
+                <a href="#">Producto 7</a>
+                <a href="#">Producto 8</a>
+                <a href="#">Producto 9</a> 
+            </div>
+        </div>
 
-        <div class="producto">
-            <a href="#">Producto 1</a>
-            <a href="#">Producto 2</a>
-            <a href="#">Producto 3</a>
-            <a href="#">Producto 4</a>
-            <a href="#">Producto 5</a>
-            <a href="#">Producto 6</a>
-            <a href="#">Producto 7</a>
-            <a href="#">Producto 8</a>
-            <a href="#">Producto 9</a> 
+        <div class="ads">
+            <a href="#">
+                <img src="descarga.png" alt=""/>
+            </a>
         </div>
 
     </div>
-
-<div class="ads">
-    <a href="#">Ads</a>
-</div>
 
 </body>
 
