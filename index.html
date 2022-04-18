@@ -16,9 +16,10 @@
                 <div class="logo">
                     <a href="#">Logo</a>
                 </div>
-                <div class="search">
-                    <a href="#">Buscador</a>
-                </div>
+                <form class="search">
+                    <input class="buscador" type="text" placeholder="Buscar">
+                    <button id="lupa"><img src="lupita.png" alt="lupa"></button>
+                </form>
                 <div class="menu">
                     <a href="#">Favoritos</a>
                     <a href="#">FAQ</a>
@@ -32,6 +33,7 @@
     <div class="contenedor">
 
         <div class="categorias"> <!--CATEGORIAS-->
+            <p>CATEGORIAS</p>
             <ul>
                 <li><a href="#">Hombres</a></li>
                 <li><a href="#">Mujeres</a></li>
@@ -42,8 +44,15 @@
         </div>
 
         <div class="productos">
-
-            <a class="ordenar" href="#">Ordenar por...</a>
+            
+            <div class="ordenar">
+                <div>Ordenar por...</div>
+                <select name="ord" id="ord">
+                    <option value="Mas relevante">Más relevante</option>
+                    <option value="Menor precio">Menor precio</option>
+                    <option value="Mayor precio">Mayor precio</option>
+                </select>
+            </div>
 
             <div class="producto">
                 <a href="#">Producto 1</a>
@@ -60,7 +69,7 @@
 
         <div class="ads">
             <a href="#">
-                <img src="descarga.png" alt=""/>
+                <img src="descarga.png" alt="Espacio Publicitario"/>
             </a>
         </div>
 
